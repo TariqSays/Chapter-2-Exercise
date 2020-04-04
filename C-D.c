@@ -1,0 +1,85 @@
+#include<stdio.h>
+#include<conio.h>
+void main() 
+{
+	
+	int Y,M,D,TY,LY,TD;
+ printf("Enter Date After 1900 as DD:MM:YY ");
+ scanf("%d%d%d",&D,&M,&Y);
+ TY=Y-1900;
+ LY=TY/4;
+ TY=TY-1;
+ TD=TY*365;
+ TD=TD+LY;
+ TD=TD+D;
+ M=M-1;
+ if(M==11)
+ {
+ TD=TD+30;
+ M=M-1;
+ }
+ if(M==10)
+ {
+ TD=TD+31;
+ M=M-1;
+ }
+ if(M==9)
+ {
+ TD=TD+30;
+ M=M-1;
+ }
+ if(M==8)
+ {
+ TD=TD+31; 
+ M=M-1;
+ }
+ if(M==7)
+ {
+ TD=TD+31;
+ M=M-1;
+ }
+ if(M==6)
+ {
+ TD=TD+30;
+ M=M-1;
+ }
+ if(M==5)
+ {
+ TD=TD+31;
+ M=M-1;
+ }
+ if(M==4)
+ {
+ TD=TD+30;
+ M=M-1;
+ }
+ if(M==3)
+ {
+ TD=TD+31;
+ M=M-1;
+ }
+ if(M==2)
+ { 
+ TD=TD+28;
+ M=M-1;
+ }
+ if(M==1)
+ TD=TD+31;
+ if(TD%7==0)
+ printf("Monday");
+ if(TD%7==1)
+ printf("Tuesday");
+ if(TD%7==2)
+ printf("Wednesday");
+ if(TD%7==3)
+ printf("Thursday");
+ if(TD%7==4)
+ printf("Friday");
+ if(TD%7==5)
+ printf("Saturday");
+ if(TD%7==6)
+ printf("Sunday");
+ getch();
+ 
+ 
+}
