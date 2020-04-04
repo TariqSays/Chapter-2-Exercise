@@ -1,0 +1,2 @@
+value being assigned into a constant
+to compare values we must use == sign 

@@ -1,0 +1,6 @@
+if conditin will results true
+since b value 12.52 is non-zero, it is true hence again
+printf( ) goes to work. 
+
+but to compare values
+if(a=b) => if(a==b)
