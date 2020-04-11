@@ -1,0 +1,2 @@
+no comparison performed
+condition written in printf double quotation statement which simply printed.
