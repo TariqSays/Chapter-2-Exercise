@@ -1,0 +1,2 @@
+note that in C a non-zero value is considered to be true
+due to which whole condition remains true(no comparison for i)

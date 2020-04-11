@@ -1,0 +1,2 @@
+no need to repeat the keyword if and parenthesis
+value being assigned in condition instead of comparison THIS WILL RETURN TRUE 

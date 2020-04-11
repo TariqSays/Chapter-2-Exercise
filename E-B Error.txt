@@ -1,0 +1,4 @@
+bitwise operator being used in if statement
+double symbol for AND operator
+
+condition being checked with garbage values of variables
