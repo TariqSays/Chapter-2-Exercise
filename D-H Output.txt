@@ -1,0 +1,3 @@
+Error in printf statement
+put i instead of I
+-1 1
